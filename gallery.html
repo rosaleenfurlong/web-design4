@@ -4,17 +4,18 @@
 
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
-
-<title>Busy Bees Gallery</title>
-
-<meta charset="utf-8">
-<meta name="keywords" content="honey,bees,Limerick,Kilfinnane,Ballyhoura,beeswax candles,honeycomb,organic">
-<meta name="description" content="honey and honey products suppliers small family business in limerick">
-<meta name="author" content="Rosaleen Walsh">  
-<meta http-equiv="refresh" content="30">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+	
+	<title>Busy Bees Gallery</title>
+	
+	<meta charset="utf-8">
+	<meta name="keywords" content="honey,bees,Limerick,Kilfinnane,Ballyhoura,beeswax candles,honeycomb,organic">
+	<meta name="description" content="honey and honey products suppliers small family business in limerick">
+	<meta name="author" content="Rosaleen Walsh">  
+	<meta http-equiv="refresh" content="30">
+	
 <style>
 
 
@@ -28,22 +29,25 @@ body	{
 			width:85%;
 			margin-left:auto;
 			margin-right:auto;
+			margin-top:130px;
+			margin-bottom:50px;
 			padding-left:10px;
 			padding-right:10px;
-			padding-top:10px;
+			padding-top:20px;
 			padding-bottom:10px;
 			background-color:#ffffc2;
 			border-radius:15px;
+			border-color:#ffd700;
+			border-style:inset;
+			border-width:2.5px;
 			}
+			
 .main-image	{
-			
-			
-			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/garden.jpg");
+			background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/honey_spoon.jpg");
 			height: 400px;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
-			
 			border-color:#ffd700;
 			border-style:inset;
 			border-width:5px;
@@ -51,7 +55,6 @@ body	{
 			margin-left:10px;
 			margin-right:10px;
 			}
-
 
 .image-text	{
 			text-align: center;
@@ -62,85 +65,71 @@ body	{
 			color:#ffffc2;
 			font-family:Birthstone;
 			font-size:200%;
-			text-shadow: 2px 2px brown ;
-
+			}
 			
-			}			
-			
-ul	{
+.nav 	{
+		width:100%;
+		position:fixed;
+		background-color:#ffffc2;
+		border-color:#ffd700;
+		border-style:inset;
+		border-width:2.5px;
+		}
+		
+.nav ul	{
 		list-style-type:none;
 		margin:0;
 		padding:0;
 		overflow:hidden;
-		background-color:#ffffc2;
-		}
-ul img	{
-		width:100px;
-		height:100px;
-		margin:10px;
 		}
 		
+.nav ul img	{
+			width:70px;
+			height:70px;
+			margin:10px;
+			padding-left:100px;
+			}
 		
-	li {
+.nav li {
 		float:right;
 		}
 		
-	li a{
-		display:block;
-		font-family:Arial;
-		font-size:.8em;
-		font-style:italic;
-		color:brown;
-		text-align:center;
-		padding:14px 16px;
-		text-decoration:none;
-		}
-	li a:hover {
+.nav li a	{
+			display:block;
+			font-family:Arial;
+			font-size:.8em;
+			font-style:italic;
+			color:brown;
+			text-align:center;
+			padding:14px;
+			text-decoration:none;
+			padding-right:150px;		
+			}
+			
+.nav li a:hover {
 				color:#008080;
 				background-color:transparent;
 				text-decoration:underline;
 				}
 			
-li	{
-	font-size:20px;
-	}			
+.nav li	{
+		font-size:20px;
+		}						
 
-
-
-a		{
-		font-family:Arial;
-		font-size:.8em;
-		font-style:italic;
-		color:brown;
-		text-align:right;
-		text-decoration:none;
-		
-		
-		}
-
-			
-a:hover		{
-			color:#008080;
-			background-color:transparent;
-			text-decoration:underline;
-			}		
-
-
-			
 footer {
 		background-color:#4D5136;
 		color:#ffffc2;
 		height:180px;
-		
-		padding:10px;
-		margin:15px;
+		border-color:#ffd700;
+		border-style:inset;
+		border-width:5px;
 		border-radius:15px;
+		padding:10px;
 		}
 		
 .foot	{
 		display:inline-block;
 		width:33%
-		
 		}		
 		
 .socialmedia	{
@@ -151,8 +140,12 @@ footer {
 .footerimg	{
 			border-radius:50%;
 			margin:10px;
-			
 			}
+			
+.footerimg:hover{
+				width:35px;
+				height:35px;
+				}			
 
 .copy	{
 		font-size:75%;
@@ -165,15 +158,12 @@ button	{
 		background-color:#ffffc2;
 		color:#4D5136;
 		border-color:#ffd700;
-		border-width:2px;
 		border-radius:15px;
-		
 		}
 		
 button:hover	{
 				background-color:#4D5136;
 				color:#ffffc2;
-				
 				}
 
 .email	{
@@ -184,253 +174,477 @@ button:hover	{
 		text-align:left;
 		text-decoration:none;
 		margin:10px;
-		
 		}
+		
 h1	{
-	color:#4D5136;
-	font-family:Birthstone;
-	font-size:4em;
-	text-shadow: 1px 1px #ffffc2;
-	text-align:center;
-	}
+	text-transform: uppercase;
+	}	
+		
 h2	{
 	font-family:Birthstone;
-	font-size:2.5em;
-	color:#4D5136; 
-	text-shadow: 1px 1px #ffffc2;
+	font-size:4em;
+	color:brown; 
 	text-align:center;
+	font-style:strong;
 	}
-	
+				
 h3	{
 	color:#ffffc2;
-	text-align:center;
-	
+	text-align:center
 	}
 
-p	{
-	font-family:Arial;
-	font-size:1em;
-	font-style:italic;
-	color:brown;
-	text-align:center;
-	}
-span                 {
-                              color: #6d9815;
-                              text-shadow: 0.5px 0.5px #ffffff;
-                             }
+span     {
+         color:#ffffc2 ;
+         font-family:Arial;
+         }
+		 
 .container      {
                 background-color: #ffffc2;
-                width: 70em;
+                width: 80em;
                 border-radius: 10px;
                 margin: auto;            
-                padding: 4px;
-
+                padding: 3px;
                 }	
 	
-
-.card            {
-                          background-color: #4D5136;
-                          border-radius: 15px;
-                          width: 250px;
-                          margin-left: 70px;
-                          margin-bottom: 50px;
-                          padding: 15px;
-                          color: #6d9815;
-                          display: inline-block;
-                        }
+.card 	{    
+        background-color: #4D5136;
+        border-radius: 15px;
+        width: 250px;
+		height:300px;
+        margin-left: 70px;
+		margin-bottom: 50px;
+        padding: 15px;
+        color: #6d9815;
+        display: inline-block;
+        }
+		
 img         {
-                    border-radius: 5px;
-                    }
+            border-radius: 5px;
+            }
 
 header	{
 		width: 70em;
 		margin:auto;
 		}
-				   
-</style>
-</head>
-<body>
-<div id="wrapper">
+		
+.definitionlist {
+				color:#4d5136;
+				text-align:left;
+				font-family:Arial;
+				font-size:1.1em;
+				padding-left:80px;
+				display: inline-block;
+				}
+				
+.list-img	{
+			border-radius:50%;
+			border-color:#ffd700;
+			border-width:5px;
+			height:150px;
+			border-style:inset;
+			}
+dd	{
+	font-size:1em;
+	font-style:italic;
+	}
 	
+.row li	{
+		color:#ffffc2;
+		list-style-type:square;
+		font-size:1.2em;
+		}
 		
+blockquote	{
+			font-style:italic;
+			color:#4D5136;
+			}
+</style>
 
-	<header>	
+</head>
 
+<body>
+
+	<div class="nav">
 		<ul>
-		<a href="index.html">
-		<img src="images/logo_free-file.png"></a>
-		
+			<a href="index.html">
+				<img src="images/logo_free-file.png">
+			</a>
+	
 			<li><a href="gallery.html">Gallery</a></li>
 			<li><a href="index.html">Homepage</a></li>
+			
 		</ul>
-	</header>
-
-
-	<div class="main-image">
-	
-		<div class="image-text">
 		
-			<h1>View our Products</h1>
-			<p>Browse our range of products, all available at our 
-	<span>Busy Bees Farm Shop</span> or from local suppliers.</p>
+	</div>
+<br>
+	<div id="wrapper">
+	
+		<div class="container">	
+
+			<div class="main-image">
+	
+				<div class="image-text">
+		
+					<h1>View our Products</h1>
+			
+					<p>Browse our range of products, all available to buy online, at our<br>
+					
+					<span>Busy Bees Farm Shop</span>
+					
+					<br> or from local suppliers.</p>
     
-		</div>
-	</div>
-	<div class="container">
-	
+				</div>
+			</div>
+		
 	<br>
-		
-	<div class="row">
-	<h2>Organic Honey Products</h2>
-		<div class="card">
-		<h3>Cut comb honey</h3>
-			
-		<a href="images/cut-hex.png" target=_blank>
-        <img src="images/cut-hex.png" height="160" width="250" alt="cutcomb honey">
-             </a>
-		<dl>
-			<dt>What is cutcomb?</dt>
-			<dd>Honey cut from the honey frame
-			containing all of the goodness of the honeycomb
-			
-			</dd>
-		<ul>
-			<li>We have a range of sizes</li>
-			<li>
-				<ol>200g-
-			</li>		
-		
-		
-		
-		</ul>
-		</dl>	
-		</div>
-		<div class="card">
-		<h3>Honeycomb Jars</h3>
-		<a href="images/honey2.png" target=_blank>
-        <img src="images/honey2.png" height="160" width="250" alt="honey jar">
-             </a>
-		</div>
-		<div class="card">
-		<h3>Organic Honey</h3>
-		<a href="images/honeyjar2.png" target=_blank>
-        <img src="images/honeyjar2.png" height="160" width="250" alt="honey jar with honeycomb">
-             </a>
-		</div>
-	</div>
 	
-	<div class="row">
-	<h2>Our Candle selection</h2>
-		<div class="card">
-		<h3>Tealights</h3>
-		<a href="images/candles1.png" target=_blank>
-        <img src="images/candles1.png" height="160" width="250" alt="small candles in jar">
-             </a>
-		</div>
-		<div class="card">
-		<h3>Embedded Candles</h3>
-		<a href="images/candles2.png" target=_blank>
-        <img src="images/candles2.png" height="160" width="250" alt="candle wrapped in bark">
-             </a>
-		</div>
-		<div class="card">
-		<h3>Pillar Candles</h3>
-		<a href="images/candles3.png" target=_blank>
-        <img src="images/candles3.png" height="160" width="250" alt="pillar candle">
-             </a>
+		<div class="definitionlist">
+		
+			<p style="font-size:1.2em">
+			
+			Why not sample our honey range? Choose from:
+			</p>
+			
+			<p>
+				<dl>
+				
+					<dt><span style="font-size: 20px; color:#ffd700;">&#x2B22;</span> Organic Honey</dt>
+					<dd>Cold-processed honey extracted on-site from our hives.</dd>
+					<dt><span style="font-size: 20px; color:#ffd700;">&#x2B22;</span> Cut Comb Honey</dt>
+					<dd>Cut directly from the frame, contains the goodness of both the honey and honeycomb.</dd>
+					<dt><span style="font-size: 20px; color:#ffd700;">&#x2B22;</span> Honey Comb</dt>
+					<dd>Honey comb in a jar.</dd>
+
+				</dl>
+
+					Perhaps you would like to try our beautifully handmade beeswax candles.<br>
+					Or, for those special occasions, we reccommend one of our exclusive, luxury hampers. 
+			</p>
+			
 		</div>
 		
-	</div>
+		<div class="definitionlist">
+		
+			<img src="images/honeybowl.jpg" class="list-img" alt="bowl of honey with flower">
+		
+		</div>
+		
+		<div class="row">
+		
+			<h2>Organic Honey Products</h2>
+			
+			<div class="card">
+				
+				<h3>Organic Honey</h3>
+					
+				<hr>
+					
+				<a href="images/honeyjar2.png" target=_blank>
+					
+					<img src="images/honeyjar2.png" height="160" width="250" alt="honey jar with honeycomb">
+					
+				</a>
+		
+				<ol>
+					
+					<li>250g jar - &#8364;5.00</li>
+					<li>450g jar - &#8364;7.00</li>
+						
+				</ol>
+				
+			</div>
+		
+			<div class="card">
+				
+				<h3>Cut Comb Honey</h3>
+		
+				<hr>
+					
+				<a href="images/cut-hex.png" target=_blank>
+					
+					<img src="images/cut-hex.png" height="160" width="250" alt="cutcomb honey">
+					
+				</a>
+		
+				<ol>
+					
+					<li>250g  - &#8364;7.00</li>
+					<li>400g  - &#8364;11.00</li>
+					
+				</ol>
+		
+			</div>
+		
+			<div class="card">
+				
+				<h3>Honey Comb</h3>
+					
+				<hr>
+					
+				<a href="images/honey2.png" target=_blank>
+					
+					<img src="images/honey2.png" height="160" width="250" alt="honeycomb in a jar">
+						
+				</a>
+					
+				<ol>
+					
+					<li>250g jar - &#8364;6.00</li>
+					<li>450g jar - &#8364;8.50</li>
+					
+				</ol>
+		
+			</div>
+		
+		</div>
+
+		<div class="row">
+				
+			<h2>Our Candle selection</h2>
+			
+			<div class="card">
+				
+				<h3>Tealights</h3>
+					
+				<hr>
+		
+				<a href="images/candles1.png" target=_blank>
+						
+					<img src="images/candles1.png" height="160" width="250" alt="small candles in jar">
+						
+				</a>
+			 
+				<ol>
+					
+					<li>&#8364;3.00 each</li>
+					<li>&#8364;8.00 for pack of 3</li>
+		
+				</ol>
+					
+			</div>
+				
+			<div class="card">
+				
+				<h3>Embedded Candles</h3>
+				
+				<hr>
+				
+				<a href="images/candles2.png" target=_blank>
+					
+					<img src="images/candles2.png" height="160" width="250" alt="candle wrapped in bark">
+				
+				</a>
+			 
+				<ol>
+			
+					<li>Range of prices</li>
+					<li>See instore for details</li>
+				
+				</ol>
+		
+			</div>
+				
+			<div class="card">
+				
+				<h3>Pillar Candles</h3>
+					
+				<hr>
+					
+				<a href="images/candles3.png" target=_blank>
+					
+					<img src="images/candles3.png" height="160" width="250" alt="pillar candle">
+						
+				</a>
+					
+				<ol>
+					
+					<li>Small - &#8364;4.50</li>
+					<li>Large - &#8364;9.00</li>
+		
+				</ol>
+		
+			</div>
+		
+		</div>
 	
-	<div class="row">
-	<h2>Special Occasion Gift Hampers</h2>
-		<div class="card">
-		<h3>Honey and Candle Selection</h3>
-		<a href="images/hamper+label.png" target=_blank>
-        <img src="images/hamper+label.png" height="160" width="250" alt="honey and candle hamper">
-             </a>
-		</div>
-		<div class="card">
-		</div>
-		<div class="card">
-		<h3>Honey Preserves</h3>
-		<a href="images/hamper2.png" target=_blank>
-        <img src="images/hamper2.png" height="160" width="250" alt="honey preserves">
-             </a>
+		<div class="row">
+	
+			<h2>Special Occasion Gift Hampers</h2>
+		
+			<div class="card">
+		
+				<h3>Honey and Candle Selection</h3>
+				
+				<hr>
+				
+				<a href="images/hamper+label.png" target=_blank>
+				
+					<img src="images/hamper+label.png" height="160" width="250" alt="honey and candle hamper">
+             
+				</a>
+			 
+				<ol>
+				
+					<li>&#8364;20.00 - &#8364;35.00</li>
+
+				</ol>
+				
+			</div>
+			
+			<div class="card">
+		
+				<h3>Wooden Hampers</h3>
+				
+				<hr>
+				
+				<a href="images/woodenhamper.jpg" target=_blank>
+				
+					<img src="images/woodenhamper.jpg" height="160" width="250" alt="wooden hamper">
+            
+				</a>
+				
+				<ol>
+				
+					<li>&#8364;30.00 - &#8364;50.00</li>
+
+				</ol>
+				
+			</div>
+			
+			<div class="card">
+			
+				<h3>Honey Preserves</h3>
+				
+				<hr>
+				
+				<a href="images/hamper2.png" target=_blank>
+				
+					<img src="images/hamper2.png" height="160" width="250" alt="honey preserves">
+				
+				</a>
+				
+				<ol>
+				
+					<li>&#8364;15.00 - &#8364;30.00</li>
+
+				</ol>
+				
+			</div>
+		
 		</div>
 		
+	<div>
+
+		<blockquote cite="https://www.scripts.com/script/bee_movie_313">
+	
+			<pre>
+According to all known laws of aviation, there is no way a bee should be able to fly. Its wings are too small to get its fat little body off the ground.
+The bee, of course, flies anyway because bees don't care what humans think is impossible. <a href="https://www.scripts.com/script/bee_movie_313" target="_blank">Bee Movie</a>
+ 			</pre>
+		
+		</blockquote>
+	
 	</div>
 
 
-<footer>
+	<footer>
 	
-	<div class="foot">
+		<div class="foot">
 	
-		<p>Call in to see us at:</p>
-		<address>
-		Busy Bees Honey Farm<br>
-		Kilfinnane<br>
-		Co. Limerick<br>
-		V12 V345
-		</address>
-		<br>
-		
-		
-	</div>
-	
-	<div class="foot">
-		
-		<div class="socialmedia">
-		<a href="mailto:20.rosaleen.walsh@learner.lcetb.ie" class="email">Email Busy Bees</a>
-		<br>
-		</div>
-		
-		<div class="socialmedia">
-		<p>Or visit us on social media:</P>
+			<p>Call in to see us at:</p>
+			
+			<address>
+			
+			Busy Bees Honey Farm<br>
+			Kilfinnane<br>
+			Co. Limerick<br>
+			V12 V345
+			
+			</address>
+			
+			<br>
 		
 		</div>
+	
+		<div class="foot">
 		
-		<div class="socialmedia">
+			<div class="socialmedia">
+			
+				<a href="mailto:20.rosaleen.walsh@learner.lcetb.ie" class="email">Email Busy Bees</a>
+		
+				<br>
+				
+			</div>
+		
+			<div class="socialmedia">
+			
+				<p>Or visit us on social media:</P>
+		
+			</div>
+		
+			<div class="socialmedia">
 				
 				<a href="https://www.facebook.com" target="-blank">
-				<img src="images/facebooklogo.jpg" width="25" height="25" class="footerimg">
+				
+					<img src="images/facebooklogo.jpg" width="25" height="25" class="footerimg">
+					
 				</a>
 				
 				<a href="https://www.instagram.com" target="-blank">
-				<img src="images/instagram.jpg" width="25" height="25" class="footerimg">
+				
+					<img src="images/instagram.jpg" width="25" height="25" class="footerimg">
+					
 				</a>
 				
 				<a href="https://twitter.com" target="-blank">
-				<img src="images/twitter.jpg" width="25" height="25" class="footerimg" >
+				
+					<img src="images/twitter.jpg" width="25" height="25" class="footerimg" >
+					
 				</a>
 				
 				<a href="https://www.youtube.com" target="-blank">
-				<img src="images/youtube.jpg" width="25" height="25" class="footerimg">
+				
+					
+					<img src="images/youtube.jpg" width="25" height="25" class="footerimg">
+					
 				</a>
-		</div>	
-	</div>
-	
-	
-	
-	<div class="foot">
-		
-		<div class="copy">
+				
+			</div>
 			
-		<a href="gallery.html"><button>
+		</div>
+	
+		<div class="foot">
 		
-		<strong>Back to Top<strong><br>
-		<img src="images/flower.jpg" width "50" height="70">
+			<div class="copy">
+			
+				<a href="gallery.html">
+				
+					<button>
 		
-		</button></a></div>
+						<strong>Back to Top<strong>
+					
+						<br>
+					
+						<img src="images/flower.jpg" width "50" height="70">
 		
-		<div class="copy">&#169;<em> Rosaleen Walsh 2021</em></div>
-	</div>
+					</button>
+					
+				</a>
+			
+			</div>
+		
+			<div class="copy">
+			
+				&#169;<em> Rosaleen Walsh 2021</em>
+			
+			</div>
+			
+		</div>
 
-
-
-</footer>
+	</footer>
 
 </div>
-</div>
+
 </body>
+
 </html>
